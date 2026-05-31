@@ -1,0 +1,62 @@
+# Dependency directories
+node_modules/
+client/node_modules/
+jspm_packages/
+
+# Environment files and credentials
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+server/.env
+client/.env
+backend-spring/.env
+frontend-react/.env
+
+# Build outputs and compilation directories
+dist/
+client/dist/
+build/
+client/build/
+target/
+server/target/
+backend-spring/target/
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.jar
+*.class
+
+# Temporary tools, portable runtimes, and caching
+maven-temp/
+.gradle/
+build-temp/
+.temp/
+
+# IDE / Editor configurations
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+.project
+.classpath
+.settings/
+.recommenders/
+
+# Log files and crash dumps
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS metadata
+.DS_Store
+Thumbs.db

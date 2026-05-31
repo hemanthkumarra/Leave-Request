@@ -1,0 +1,27 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: leave-request
+  
+  # MongoDB Config
+  data:
+    mongodb:
+      uri: ${MONGO_URI:mongodb://localhost:27017/leave_management}
+      database: leave_management
+
+  # Spring AI Gemini Config
+  ai:
+    google:
+      genai:
+        api-key: ${SPRING_AI_GOOGLE_GENAI_API_KEY:}
+        chat:
+          options:
+            model: gemini-1.5-flash
+
+# Custom properties (jwt etc)
+app:
+  jwt:
+    secret: ${JWT_SECRET:super_secret_key_that_is_at_least_32_characters_long_for_security_reasons}
+    expiration-ms: 86400000 # 24 hours
