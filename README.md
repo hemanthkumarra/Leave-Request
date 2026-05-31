@@ -1,5 +1,7 @@
 # LeaveTracker MVP — AI-Powered Leave Management System
 
+🌐 **Live Production App**: [leave-request-five.vercel.app](https://leave-request-five.vercel.app/)
+
 LeaveTracker is a modern, enterprise-ready fullstack web application that simplifies corporate leave request creation and management. By utilizing the **Google Gemini AI model**, LeaveTracker automatically generates formal leave application letters based on employee input, evaluates task handover plans, and provides HR managers with a secure dashboard to review, analyze, and resolve leave requests.
 
 ---
