@@ -17,6 +17,19 @@ LeaveTracker is a modern, enterprise-ready fullstack web application that simpli
 
 ---
 
+## 🖥️ User Interface Overview
+
+### Enterprise Sign In
+![Enterprise Sign In](screenshots/login.png)
+
+### Employee Dashboard
+![Employee Dashboard](screenshots/employee_dashboard.png)
+
+### HR Manager Dashboard
+![HR Manager Dashboard](screenshots/hr_dashboard.png)
+
+---
+
 ## 🏗️ Architecture & Technology Stack
 
 ```mermaid
